@@ -5,7 +5,7 @@ var mongoose = require("mongoose");
 var methodOverride = require("method-override");
 var expressSanitizer = require("express-sanitizer");
 
-mongoose.connect("mongodb://localhost/restful_blog_app");
+mongoose.connect("mongodb://mummy:mummy@ds111791.mlab.com:11791/restful_blogapp");
 app.set("view engine ", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
