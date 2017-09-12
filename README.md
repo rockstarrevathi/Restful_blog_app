@@ -1,2 +1,2 @@
 # Restful_blog_app
-Blog App
+Blog App :https://revathi-blog.herokuapp.com/blogs
